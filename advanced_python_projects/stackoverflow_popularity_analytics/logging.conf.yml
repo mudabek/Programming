@@ -1,0 +1,26 @@
+version: 1
+formatters:
+  simple:
+    class: logging.Formatter
+    format: "%(asctime)s %(levelname)s %(message)s"
+    datefmt: "%Y-%m-%d-%H:%M:%S"
+handlers:
+  file_general_handler:
+    class: logging.FileHandler
+    filename: stackoverflow_analytics.log
+    level: DEBUG
+    formatter: simple
+  file_warning_handler:
+    class: logging.FileHandler
+    filename: stackoverflow_analytics.warn
+    level: WARNING
+    formatter: simple
+loggers:
+  stackoverflow_analytics:
+    level: DEBUG
+    handlers: [file_general_handler]
+    propagate: yes
+  stackoverflow_analytics_warning:
+    level: WARNING
+    handlers: [file_warning_handler]
+    propagate: yes

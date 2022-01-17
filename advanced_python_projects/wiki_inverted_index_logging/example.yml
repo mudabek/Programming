@@ -1,0 +1,19 @@
+my_list: [1, 2, 3]
+my_mapping: {a: b, c: d}
+my_another_mapping:
+  a: b
+  c: d
+my_another_list:
+  - 4
+  - 5
+  - my_string
+  - 6.0
+  - ~
+my_scalars:
+  - plain_scalar
+  - 'my doesnt''t \\n strubg'
+  - "my doesn't \\n string"
+my_folded: |2
+  my big config disclaimer
+  I would like to know
+  ...

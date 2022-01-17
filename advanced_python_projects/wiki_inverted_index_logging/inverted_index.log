@@ -1,0 +1,21 @@
+INFO:__main__:load inverted index from filepath default_inverted
+INFO:__main__:process queries: [['Anarchism']]
+DEBUG:__main__:query inverted index with ['Anarchism']
+INFO:__main__:load inverted index from filepath default_inverted
+INFO:__main__:process queries: [['Anarchism']]
+DEBUG:__main__:query inverted index with ['Anarchism']
+INFO:inverted_index_logged:load inverted index from filepath default_inverted
+INFO:inverted_index_logged:process queries: [['Anarchism']]
+DEBUG:inverted_index_logged:query inverted index with ['Anarchism']
+2020-11-23-23:40:32 INFO load inverted index from filepath default_inverted
+2020-11-23-23:40:39 INFO process queries: [['Anarchism']]
+2020-11-23-23:40:39 DEBUG query inverted index with ['Anarchism']
+2020-11-24-17:08:37 INFO load inverted index from filepath default_inverted
+2020-11-24-17:08:43 INFO process queries: [['Anarchism']]
+2020-11-24-17:08:43 DEBUG query inverted index with ['Anarchism']
+2020-11-24-17:10:21 INFO load inverted index from filepath default_inverted
+2020-11-24-17:10:27 INFO process queries: [['Country']]
+2020-11-24-17:10:27 DEBUG query inverted index with ['Country']
+2020-11-24-17:24:58 INFO load inverted index from filepath default_inverted
+2020-11-24-17:25:05 INFO process queries: [['Anarchism']]
+2020-11-24-17:25:05 DEBUG query inverted index with ['Anarchism']
